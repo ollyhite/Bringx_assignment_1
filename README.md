@@ -6,7 +6,7 @@ https://ollyhite.github.io/Bringx_assignment_1/
 
 ## Description
 
-This is a US state searching website. 
+A US state searching website. Build with a typeahead in HTML, CSS, JQuery.
 
 ## Usage
 
@@ -29,7 +29,7 @@ This is a US state searching website.
 - create a file
 - open ternimal and cd the file name you created
 - git clone with my repo link (can copy Installation section's first line)
-- open browser and past "http://127.0.0.1:5500/Bringx_assignment_1/index.html" url
+- open browser and past "http://127.0.0.1:5500/Bringx_assignment_1/index.html" url in your localhost
 
 ## Built With
 
@@ -38,7 +38,6 @@ This is a US state searching website.
 - JQuery
 - jquery-typeahead
 - Express
-
 
 ## Author Info & Getting Help
 
