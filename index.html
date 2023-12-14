@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bringx</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/jquery-typeahead/dist/jquery.typeahead.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-typeahead/dist/jquery.typeahead.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Search for US States</h1>
+
+      <div class="typeahead__container">
+        <div class="typeahead__field">
+          <div class="typeahead__query">
+            <input class="js-typeahead" name="q" autofocus autocomplete="off" />
+          </div>
+          <div class="typeahead__button">
+            <button type="submit">
+              <span class="typeahead__search-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
