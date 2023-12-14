@@ -8,10 +8,10 @@ $(document).ready(function () {
     source: {
       url: "https://bringx-us-state-server.onrender.com/states",
     },
-    callback: {
-      onClickAfter: function (node, a, item, event) {
-        window.location.href = item.url;
-      },
-    },
+    // callback: {
+    //   onClickAfter: function (node, a, item, event) {
+    //     window.location.href = item.url;
+    //   },
+    // },
   });
 });
